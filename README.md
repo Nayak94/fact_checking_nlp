@@ -22,7 +22,7 @@
 |  3 | say politifact report 95 percent donald trump say lie                                  | {'cats': {'True': 0.0, 'Fake': 1.0}} |
 |  4 | marijuana schedule drug understand mean research                                       | {'cats': {'True': 0.0, 'Fake': 1.0}} |
 
-
+Note :- The texts above is preprocessed i.e. punctuations and stopwords removed and lemmatized.
 
 - Below are the results achieved using Bag-Of-Words binary text classifier.
 
