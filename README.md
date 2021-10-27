@@ -12,6 +12,18 @@
 
 - Besides text classfication, the purpose of this project is also to use industry-grade nlp packages and state-of-the-art nlp architectures provided by them. Spacy is one of developing entity in this category. 
 
+- Below is the expected data format by the text classfier. 
+
+|    | texts                                                                                  | labels                               |
+|---:|:---------------------------------------------------------------------------------------|:-------------------------------------|
+|  0 | 1928 school board send home letter child say al smith elect president allow read bible | {'cats': {'True': 1.0, 'Fake': 0.0}} |
+|  1 | country rich wealth country dissipate horizon                                          | {'cats': {'True': 0.0, 'Fake': 1.0}} |
+|  2 | pope francis mass jesus metaphorical literal                                           | {'cats': {'True': 0.0, 'Fake': 1.0}} |
+|  3 | say politifact report 95 percent donald trump say lie                                  | {'cats': {'True': 0.0, 'Fake': 1.0}} |
+|  4 | marijuana schedule drug understand mean research                                       | {'cats': {'True': 0.0, 'Fake': 1.0}} |
+
+
+
 -Below are the results achieved using Bag-Of-Words binary text classifier.
 
 <h3><center>Epochs:100, n_gram=2, drop=0.2</center></h3>
