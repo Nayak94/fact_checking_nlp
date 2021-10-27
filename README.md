@@ -12,7 +12,9 @@
 
 - Besides text classfication, the purpose of this project is also to use industry-grade nlp packages and state-of-the-art nlp architectures provided by them. Spacy is one of developing entity in this category. 
 
-<h2><center>Epochs:100, n_gram=2, drop=0.2</center></h2>
+-Below are the results achieved using Bag-Of-Words binary text classifier.
+
+<h3><center>Epochs:100, n_gram=2, drop=0.2</center></h3>
 
 <h3><center>Train set results</center></h3>
 
@@ -32,4 +34,6 @@
 
 
 ### References
+
+- Spacy Knowledge Base from [here](https://spacy.io/usage/v3-1)
 
