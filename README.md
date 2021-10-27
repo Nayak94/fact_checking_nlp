@@ -8,6 +8,8 @@
 
 - If not kindly refer here for installing [spacy](https://spacy.io/usage) and [language](https://spacy.io/models/en) models
 
+- Also the datasets api from HuggingFace should be installed from [here](https://huggingface.co/docs/datasets/installation.html) to download datasets.
+
 ### Implementation 
 
 - Besides text classfication, the purpose of this project is also to use industry-grade nlp packages and state-of-the-art nlp architectures provided by them. Spacy is one of developing entity in this category. 
