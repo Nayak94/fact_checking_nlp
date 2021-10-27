@@ -24,7 +24,7 @@
 
 
 
--Below are the results achieved using Bag-Of-Words binary text classifier.
+- Below are the results achieved using Bag-Of-Words binary text classifier.
 
 <h3><center>Epochs:100, n_gram=2, drop=0.2</center></h3>
 
